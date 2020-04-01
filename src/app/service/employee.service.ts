@@ -16,7 +16,7 @@ const httpOptions = {
   providedIn: "root"
 })
 export class EmployeeService {
-  mainUrl: string = "http://localhost:8081/empdevs";
+  mainUrl: string = "http://localhost:8080/empdevs";
 
   constructor(private http: HttpClient) {}
 
